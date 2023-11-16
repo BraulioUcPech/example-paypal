@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, main {
+    width: 90%;
+    margin: auto;
+}
+
+.product h2, .cart-view h2 {
+    margin: 0.5em 0;
+}
+
+.product button, .cart-view button {
+    background-color: #0070ba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.product button:hover, .cart-view button:hover {
+    background-color: #005c99;
+}
+
+.paypal-cart {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.paypal-cart h2 {
+    font-size: 0.9em;
+    margin: 0 0 20px 0;
+}
+
+/* Este estilo es solo para simulación, ya que el contenido real del carrito será generado por PayPal */
+.paypal-cart-content {
+    border: 1px solid #ccc;
+    padding: 10px;
+}

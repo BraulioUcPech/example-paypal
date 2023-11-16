@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en Línea con Carrito de PayPal</title>
+    <!-- Agrega aquí tu CSS o enlaces a hojas de estilo externas -->
+</head>
+<body>
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_xclick" />
+        <input type="hidden" name="business" value="braulioalexson@gmail.com" />
+        <input type="hidden" name="item_name" value="Capacitación" />
+        <input type="hidden" name="amount" value="4000.00" />
+        <input type="submit" value="Comprar capacitación" />
+    </form>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <input type="hidden" name="cmd" value="_xclick" />
+        <input type="hidden" name="business" value="braulioalexson@gmail.com" />
+        <input type="hidden" name="item_name" value="Silla empresarial" />
+        <input type="hidden" name="amount" value="1530" />
+        <input type="hidden" name="shipping" value="150.00" />
+        <input type="hidden" name="handling" value="50.00" />
+        <input type="submit" value="Comprar silla empresarial" />
+    </form>
+
+
+
+    <h2>Silla Empresarial:</h2>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_cart">
+        <input type="hidden" name="business" value="correo@tudominio.com">
+        <input type="hidden" name="lc" value="MX">
+        <input type="hidden" name="item_name" value="Silla Empresarial">
+        <input type="hidden" name="amount" value="1500.00">
+        <input type="hidden" name="currency_code" value="MXN">
+        <input type="hidden" name="button_subtype" value="products">
+        <input type="hidden" name="add" value="1">
+        <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHosted">
+        <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - La forma más segura y rápida de pagar en línea.">
+        <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
+    <h2>Computadora personal HP:</h2>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_cart">
+        <input type="hidden" name="business" value="correo@tudominio.com">
+        <input type="hidden" name="lc" value="MX">
+        <input type="hidden" name="item_name" value="Computadora personal HP">
+        <input type="hidden" name="amount" value="6500.00">
+        <input type="hidden" name="currency_code" value="MXN">
+        <input type="hidden" name="button_subtype" value="products">
+        <input type="hidden" name="add" value="1">
+        <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHosted">
+        <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - La forma más segura y rápida de pagar en línea.">
+        <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
+    <h2>Ver carrito:</h2>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_cart">
+        <input type="hidden" name="business" value="correo@tudominio.com">
+        <input type="hidden" name="display" value="1">
+        <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - La forma más segura y rápida de pagar en línea.">
+        <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+    </form>
+</body>
+</html>
